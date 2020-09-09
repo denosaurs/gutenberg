@@ -1,5 +1,5 @@
 <span>
-    <img align="right" src="assets/gutenberg.jpg" style="height: 150px" />
+    <img align="right" src="assets/gutenberg.jpg" height="150" />
 </span>
 
 # gutenberg
