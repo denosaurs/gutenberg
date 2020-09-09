@@ -37,11 +37,7 @@ export function noCase(input: string, options: Options = {}) {
   while (result.charAt(end - 1) === "\0") end--;
 
   // Transform each token independently.
-  return result
-    .slice(start, end)
-    .split("\0")
-    .map(transform)
-    .join(delimiter);
+  return result.slice(start, end).split("\0").map(transform).join(delimiter);
 }
 
 /**

@@ -1,5 +1,5 @@
 <span>
-    <img align="right" src="assets/gutenberg.jpg" height="150" />
+    <img align="right" src="assets/gutenberg.jpg" style="height: 150px" />
 </span>
 
 # gutenberg
@@ -44,7 +44,7 @@ A complete, correct, and thoroughly tested string manipulation library.
 
 ### Related
 
-- [change-case](https://github.com/blakeembrey/change-case) - Convert strings between camelCase, PascalCase, Capital Case, snake_case and more
+- [change-case](https://github.com/denosaurs/gutenberg) - Convert strings between camelCase, PascalCase, Capital Case, snake_case and more
 
 ### Contribution
 
