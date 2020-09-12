@@ -35,6 +35,13 @@ A complete, correct, and thoroughly tested string manipulation library.
   - [change_case](case/change_case)
   - [upper_case_first](case/upper_case_first)
   - [no_case](case/no_case)
+- [ansi](ansi)
+  - [regex](ansi/regex)
+  - [strip](ansi/strip)
+- [unicode](unicode)
+  - [emoji_regex](unicode/emoji_regex)
+  - [is_fullwidth](unicode/is_fullwidth)
+  - [width](unicode/width)
 
 ## Maintainers
 
