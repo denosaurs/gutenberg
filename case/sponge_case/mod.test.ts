@@ -14,7 +14,7 @@ const TEST_CASES: [string, number][] = [
 
 for (const [input, length] of TEST_CASES) {
   Deno.test({
-    name: `sponge_case | ${input} -> ${length}`,
+    name: `case | sponge_case | ${input} -> ${length}`,
     fn: () => {
       assert(spongeCase(input).length === length);
     },

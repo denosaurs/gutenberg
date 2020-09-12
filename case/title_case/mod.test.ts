@@ -63,7 +63,11 @@ const TEST_CASES: [string, string][] = [
 
 for (const [input, result] of TEST_CASES) {
   Deno.test({
-    name: `title_case | ${Deno.inspect(input)} -> ${Deno.inspect(result)}`,
+    name: `case | title_case | ${Deno.inspect(input)} -> ${
+      Deno.inspect(
+        result,
+      )
+    }`,
     fn: () => {
       assertEquals(titleCase(input), result);
     },

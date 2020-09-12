@@ -15,7 +15,7 @@ const TEST_CASES: [string, string, Options?][] = [
 
 for (const [input, result, options] of TEST_CASES) {
   Deno.test({
-    name: `camel_case | ${input} -> ${result}`,
+    name: `case | camel_case | ${input} -> ${result}`,
     fn: () => {
       assertEquals(camelCase(input, options), result);
     },

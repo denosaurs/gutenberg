@@ -9,7 +9,7 @@ const TEST_CASES: [string, string][] = [
 
 for (const [input, result] of TEST_CASES) {
   Deno.test({
-    name: `upper_case_first | ${input} -> ${result}`,
+    name: `case | upper_case_first | ${input} -> ${result}`,
     fn: () => {
       assertEquals(upperCaseFirst(input), result);
     },

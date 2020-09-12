@@ -58,7 +58,7 @@ const TEST_CASES: [string, string, Options?][] = [
 
 for (const [input, result, options] of TEST_CASES) {
   Deno.test({
-    name: `no_case | ${input} -> ${result}`,
+    name: `case | no_case | ${input} -> ${result}`,
     fn: () => {
       assertEquals(noCase(input, options), result);
     },

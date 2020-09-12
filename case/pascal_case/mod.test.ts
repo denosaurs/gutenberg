@@ -14,7 +14,7 @@ const TEST_CASES: [string, string, Options?][] = [
 
 for (const [input, result, options] of TEST_CASES) {
   Deno.test({
-    name: `pascal_case | ${input} -> ${result}`,
+    name: `case | pascal_case | ${input} -> ${result}`,
     fn: () => {
       assertEquals(pascalCase(input, options), result);
     },

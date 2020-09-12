@@ -12,7 +12,7 @@ const TEST_CASES: [string, boolean][] = [
 
 for (const [input, result] of TEST_CASES) {
   Deno.test({
-    name: `is_lower_case | ${input} -> ${result}`,
+    name: `case | is_lower_case | ${input} -> ${result}`,
     fn: () => {
       assertEquals(isLowerCase(input), result);
     },

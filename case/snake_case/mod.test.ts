@@ -14,7 +14,7 @@ const TEST_CASES: [string, string][] = [
 
 for (const [input, result] of TEST_CASES) {
   Deno.test({
-    name: `snake_case | ${input} -> ${result}`,
+    name: `case | snake_case | ${input} -> ${result}`,
     fn: () => {
       assertEquals(snakeCase(input), result);
     },

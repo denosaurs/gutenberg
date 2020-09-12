@@ -13,7 +13,7 @@ const LOCALE_TEST_CASES: [string, string, string][] = [["i", "\u0130", "tr"]];
 
 for (const [input, result] of TEST_CASES) {
   Deno.test({
-    name: `upper_case | ${input} -> ${result}`,
+    name: `case | upper_case | ${input} -> ${result}`,
     fn: () => {
       assertEquals(upperCase(input), result);
     },
@@ -22,7 +22,7 @@ for (const [input, result] of TEST_CASES) {
 
 for (const [input, result, locale] of LOCALE_TEST_CASES) {
   Deno.test({
-    name: `locale_upper_case | ${input} -> ${result}`,
+    name: `case | locale_upper_case | ${input} -> ${result}`,
     fn: () => {
       assertEquals(localeUpperCase(input, locale), result);
     },

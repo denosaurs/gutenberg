@@ -15,7 +15,7 @@ const LOCALE_TEST_CASES: [string, string, string][] = [
 
 for (const [input, result] of TEST_CASES) {
   Deno.test({
-    name: `lower_case | ${input} -> ${result}`,
+    name: `case | lower_case | ${input} -> ${result}`,
     fn: () => {
       assertEquals(lowerCase(input), result);
     },
@@ -24,7 +24,7 @@ for (const [input, result] of TEST_CASES) {
 
 for (const [input, result, locale] of LOCALE_TEST_CASES) {
   Deno.test({
-    name: `locale_lower_case | ${input} -> ${result}`,
+    name: `case | locale_lower_case | ${input} -> ${result}`,
     fn: () => {
       assertEquals(localeLowerCase(input, locale), result);
     },
