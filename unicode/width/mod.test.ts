@@ -1,4 +1,3 @@
-import { assert } from "https://deno.land/std@0.68.0/testing/asserts.ts";
 import { assertEquals } from "../../test_deps.ts";
 import { stringWidth } from "./mod.ts";
 
