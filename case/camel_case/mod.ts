@@ -5,7 +5,7 @@ import {
   Options,
 } from "../pascal_case/mod.ts";
 
-export { Options };
+export type { Options };
 
 export function camelCaseTransform(input: string, index: number) {
   if (index === 0) return input.toLowerCase();

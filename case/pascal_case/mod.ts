@@ -1,6 +1,6 @@
 import { noCase, Options } from "../no_case/mod.ts";
 
-export { Options };
+export type { Options };
 
 export function pascalCaseTransform(input: string, index: number) {
   const firstChar = input.charAt(0);
