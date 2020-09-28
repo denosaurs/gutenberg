@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog],
 and this project adheres to [Semantic Versioning].
 
+## [0.1.5] - 2020-09-28
+
+### Features
+
+- add table ([`a21fa12`])
+
 ## [0.1.4] - 2020-09-20
 
 ## [0.1.3] - 2020-09-14
@@ -34,6 +40,8 @@ and this project adheres to [Semantic Versioning].
 
 [keep a changelog]: https://keepachangelog.com/en/1.0.0/
 [semantic versioning]: https://semver.org/spec/v2.0.0.html
+[0.1.5]: https://github.com/denosaurs/gutenberg/compare/0.1.4...0.1.5
+[`a21fa12`]: https://github.com/denosaurs/gutenberg/commit/a21fa1251e3b45c1f004cee679529b277bbfdba5
 [0.1.4]: https://github.com/denosaurs/gutenberg/compare/0.1.3...0.1.4
 [0.1.3]: https://github.com/denosaurs/gutenberg/compare/0.1.2...0.1.3
 [`a6e18a0`]: https://github.com/denosaurs/gutenberg/commit/a6e18a032f8989ca0c2e74a1b2f69c11b739c76d
